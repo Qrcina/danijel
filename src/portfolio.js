@@ -136,7 +136,7 @@ const workExperiences = {
     {
       role: "Educational Recruiter",
       company: "Career Oversea Ltd.",
-      companylogo: require("./assets/images/lines.jpg.png"),
+      companylogo: require("./assets/images/lines.jpg"),
       date: "02/2017 – 02/2018",
       descBullets: [
         "Provided academic counseling and developed outreach strategies",
