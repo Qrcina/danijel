@@ -98,16 +98,38 @@ const openSource = {
 };
 
 const bigProjects = {
-  title: "Projects",
-  subtitle: "Some of the work I am proud of",
+  title: "Big Projects",
+  subtitle: "EXAMPLES OF IMPACTFUL WORK",
   projects: [],
-  display: false // Set to true once you want to show real projects
+  display: false
 };
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle: "Relevant certificates and professional growth milestones",
   achievementsCards: [],
+  display: false
+};
+
+const blogSection = {
+  title: "Blogs",
+  subtitle: "I love sharing knowledge through writing.",
+  displayMediumBlogs: "false",
+  blogs: [],
+  display: false
+};
+
+const talkSection = {
+  title: "TALKS",
+  subtitle: emoji("Eager to share and exchange ideas"),
+  talks: [],
+  display: false
+};
+
+const podcastSection = {
+  title: emoji("Podcast 🎹"),
+  subtitle: "Always open for meaningful discussions.",
+  podcast: [],
   display: false
 };
 
@@ -122,6 +144,11 @@ const contactInfo = {
   subtitle: "Let’s connect — open to collaborations, projects or coffee chats!",
   number: "+381642924156",
   email_address: "thegolub1989@gmail.com"
+};
+
+const twitterDetails = {
+  userName: "",
+  display: false
 };
 
 const isHireable = true;
