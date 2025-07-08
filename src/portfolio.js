@@ -53,14 +53,14 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Tartu",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/Tartu_Logo.png"),
       subHeader: "Master of Arts - Innovation and Technology Management",
       duration: "09/2019 – 06/2021",
       desc: "Focused on technology strategy, digital transformation, and innovation processes"
     },
     {
       schoolName: "University of Nis",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/eko_nis.png"),
       subHeader: "Bachelor's Degree - Finance, Banking and Insurance",
       duration: "10/2008 – 06/2013",
       desc: "Gained solid foundation in financial systems and economic structures"
@@ -84,7 +84,7 @@ const workExperiences = {
     {
       role: "Project Management Officer",
       company: "Merkle",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/merkle.jpg"),
       date: "05/2022 – Present",
       descBullets: [
         "Provide tools/reports to support project managers and ensure compliance",
@@ -95,7 +95,7 @@ const workExperiences = {
     {
       role: "IT Manager",
       company: "Green Trust",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/green_trust.jpg"),
       date: "04/2021 – 05/2022",
       descBullets: [
         "Redefined project document structures, managed IT systems",
@@ -106,7 +106,7 @@ const workExperiences = {
     {
       role: "Carrier Sales Representative",
       company: "Delta Group Logistics LLC",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/delta.png"),
       date: "11/2021 – 03/2022",
       descBullets: [
         "Maintained carrier network and negotiated competitive rates",
@@ -116,7 +116,7 @@ const workExperiences = {
     {
       role: "Project Officer",
       company: "Ministry of Labor, Employment, Veteran and Social Affairs",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/lines.jpg"),
       date: "09/2021 – 02/2022",
       descBullets: [
         "Supported program activities, stakeholders and reporting",
@@ -126,7 +126,7 @@ const workExperiences = {
     {
       role: "Business Consultant",
       company: "Gabriel Education Ltd.",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/lines.jpg"),
       date: "02/2018 – 07/2019",
       descBullets: [
         "Implemented curriculum changes, reported effectiveness",
@@ -136,7 +136,7 @@ const workExperiences = {
     {
       role: "Educational Recruiter",
       company: "Career Oversea Ltd.",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/lines.jpg.png"),
       date: "02/2017 – 02/2018",
       descBullets: [
         "Provided academic counseling and developed outreach strategies",
@@ -160,21 +160,21 @@ const achievementSection = {
     {
       title: "Prince2 Foundation Professional",
       subtitle: "Certified by AXELOS in project methodology and governance",
-      image: require("./assets/images/pwaLogo.webp"),
+      image: require("./assets/images/prince2.png"),
       imageAlt: "Prince2 Logo",
       footerLink: []
     },
     {
       title: "Scrum Master I (PSM I)",
       subtitle: "Certified Scrum Master with understanding of Agile principles",
-      image: require("./assets/images/pwaLogo.webp"),
+      image: require("./assets/images/scrum.png"),
       imageAlt: "Scrum Master Logo",
       footerLink: []
     },
     {
       title: "Microsoft Power BI Data Analyst",
       subtitle: "Certified in Data Analysis and Visualization using Power BI",
-      image: require("./assets/images/pwaLogo.webp"),
+      image: require("./assets/images/PowerBI.png"),
       imageAlt: "Power BI Logo",
       footerLink: []
     }
@@ -194,7 +194,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My inbox is open.",
-  number: "",
+  number: "+381642924156",
   email_address: "thegolub1989@gmail.com"
 };
 const twitterDetails = { userName: "", display: false };
