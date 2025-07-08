@@ -24,7 +24,7 @@ const greeting = {
 };
 
 const socialMediaLinks = {
-  github: "https://github.com/Qrcina",
+  // github: "https://github.com/Qrcina",
   linkedin: "https://www.linkedin.com/in/danijel-golubovic-317883113/",
   display: true
 };
@@ -72,7 +72,8 @@ const techStack = {
   viewSkillBars: true,
   experience: [
     { Stack: "Power BI / Excel / D365", progressPercentage: "90%" },
-    { Stack: "SQL / Python", progressPercentage: "75%" },
+    { Stack: "SQL", progressPercentage: "75%" },
+    { Stack: "Python", progressPercentage: "20%" },
     { Stack: "Project Management", progressPercentage: "85%" }
   ],
   displayCodersrank: false
