@@ -200,6 +200,11 @@ const contactInfo = {
 const twitterDetails = { userName: "", display: false };
 const isHireable = true;
 
+const openSource = {
+  showGithubProfile: false,
+  display: false
+};
+
 export {
   illustration,
   greeting,
@@ -209,7 +214,7 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-  openSource: { showGithubProfile: false, display: false },
+  openSource,
   bigProjects,
   achievementSection,
   blogSection,
