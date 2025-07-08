@@ -19,7 +19,8 @@ const greeting = {
   subTitle: emoji(
     "Project Management professional with hands-on experience in PM tools and reporting, Power BI, SQL, Excel, and D365. Strong background in data visualization, stakeholder management, and project compliance across diverse industries."
   ),
-  resumeLink: "https://drive.google.com/file/d/1OdUaYb_wR8iSt0QjdWUaenNCR2VHY1GK/view?usp=sharing",
+  resumeLink:
+    "https://drive.google.com/file/d/1OdUaYb_wR8iSt0QjdWUaenNCR2VHY1GK/view?usp=sharing",
   displayGreeting: true
 };
 
@@ -31,19 +32,24 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "DATA-DRIVEN PROJECT MANAGER WITH A KNACK FOR PROCESS OPTIMIZATION AND REPORTING",
+  subTitle:
+    "DATA-DRIVEN PROJECT MANAGER WITH A KNACK FOR PROCESS OPTIMIZATION AND REPORTING",
   skills: [
     emoji("⚡ Proficient in data analysis using Power BI, SQL, and Excel"),
-    emoji("⚡ Experienced in creating project dashboards, tracking KPIs, and financial metrics"),
-    emoji("⚡ Skilled in project compliance, stakeholder communication, and administrative governance")
+    emoji(
+      "⚡ Experienced in creating project dashboards, tracking KPIs, and financial metrics"
+    ),
+    emoji(
+      "⚡ Skilled in project compliance, stakeholder communication, and administrative governance"
+    )
   ],
   softwareSkills: [
-    { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-bar" },
-    { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "Excel", fontAwesomeClassname: "fas fa-file-excel" },
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "Scrum", fontAwesomeClassname: "fas fa-project-diagram" },
-    { skillName: "Project Management", fontAwesomeClassname: "fas fa-tasks" }
+    {skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-bar"},
+    {skillName: "SQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "Excel", fontAwesomeClassname: "fas fa-file-excel"},
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "Scrum", fontAwesomeClassname: "fas fa-project-diagram"},
+    {skillName: "Project Management", fontAwesomeClassname: "fas fa-tasks"}
   ],
   display: true
 };
@@ -71,10 +77,10 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "Power BI / Excel / D365", progressPercentage: "90%" },
-    { Stack: "SQL", progressPercentage: "75%" },
-    { Stack: "Python", progressPercentage: "20%" },
-    { Stack: "Project Management", progressPercentage: "85%" }
+    {Stack: "Power BI / Excel / D365", progressPercentage: "90%"},
+    {Stack: "SQL", progressPercentage: "75%"},
+    {Stack: "Python", progressPercentage: "20%"},
+    {Stack: "Project Management", progressPercentage: "85%"}
   ],
   displayCodersrank: false
 };
@@ -183,9 +189,9 @@ const achievementSection = {
   display: true
 };
 
-const blogSection = { title: "", subtitle: "", blogs: [], display: false };
-const talkSection = { title: "", subtitle: "", talks: [], display: false };
-const podcastSection = { title: "", subtitle: "", podcast: [], display: false };
+const blogSection = {title: "", subtitle: "", blogs: [], display: false};
+const talkSection = {title: "", subtitle: "", talks: [], display: false};
+const podcastSection = {title: "", subtitle: "", podcast: [], display: false};
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
@@ -198,7 +204,7 @@ const contactInfo = {
   number: "+381642924156",
   email_address: "thegolub1989@gmail.com"
 };
-const twitterDetails = { userName: "", display: false };
+const twitterDetails = {userName: "", display: false};
 const isHireable = true;
 
 const openSource = {

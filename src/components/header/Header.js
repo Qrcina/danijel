@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, {useContext} from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
@@ -14,15 +14,19 @@ import {
   resumeSection
 } from "../../portfolio";
 
-<a href="/" className="logo" style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-  <img src="/images/Tartu_Logo.png" alt="Tartu Logo" style={{ height: 30 }} />
+<a
+  href="/"
+  className="logo"
+  style={{display: "flex", alignItems: "center", gap: "8px"}}
+>
+  <img src="/images/Tartu_Logo.png" alt="Tartu Logo" style={{height: 30}} />
   <span className="grey-color"> &lt;</span>
   <span className="logo-name">{greeting.username}</span>
   <span className="grey-color">/&gt;</span>
-</a>
+</a>;
 
 function Header() {
-  const { isDark } = useContext(StyleContext);
+  const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
@@ -37,9 +41,9 @@ function Header() {
         <a
           href="/"
           className="logo"
-          style={{ display: "flex", alignItems: "center", gap: "8px" }}
+          style={{display: "flex", alignItems: "center", gap: "8px"}}
         >
-          <img src={logo} alt="Tartu Logo" style={{ height: 30 }} />
+          <img src={logo} alt="Tartu Logo" style={{height: 30}} />
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
@@ -49,7 +53,7 @@ function Header() {
         <label
           className="menu-icon"
           htmlFor="menu-btn"
-          style={{ color: "white" }}
+          style={{color: "white"}}
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
