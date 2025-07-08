@@ -97,6 +97,12 @@ const openSource = {
   display: false
 };
 
+const bigProjects = {
+  title: "Projects",
+  subtitle: "Some of the work I am proud of",
+  projects: [],
+  display: false // Set to true once you want to show real projects
+};
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
