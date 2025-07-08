@@ -1,4 +1,4 @@
-/* Danijel Golubovic's Portfolio Configuration */
+/* Change this file to get your personal Portfolio */
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation";
@@ -15,142 +15,189 @@ const illustration = {
 
 const greeting = {
   username: "Danijel Golubovic",
-  title: "Hi, I'm Danijel",
+  title: "Hi all, I'm Danijel",
   subTitle: emoji(
-    "Project Management Officer with a strong foundation in data analytics, financial operations, and digital transformation. Currently transitioning into a data analyst role with hands-on experience in Power BI, SQL, and Excel. Passionate about leveraging data to improve decision-making and business performance."
+    "Project Management professional with hands-on experience in PM tools and reporting, Power BI, SQL, Excel, and D365. Strong background in data visualization, stakeholder management, and project compliance across diverse industries."
   ),
   resumeLink: "https://drive.google.com/file/d/1OdUaYb_wR8iSt0QjdWUaenNCR2VHY1GK/view?usp=sharing",
   displayGreeting: true
 };
 
 const socialMediaLinks = {
-  github: "",
+  github: "https://github.com/Qrcina",
   linkedin: "https://www.linkedin.com/in/danijel-golubovic-317883113/",
-  gmail: "thegolub1989@gmail.com",
   display: true
 };
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "BLENDING PROJECT MANAGEMENT INSIGHT WITH DATA ANALYTICS",
+  subTitle: "DATA-DRIVEN PROJECT MANAGER WITH A KNACK FOR PROCESS OPTIMIZATION AND REPORTING",
   skills: [
-    emoji("📊 Develop dashboards and insights using Power BI"),
-    emoji("📁 Organize and support complex project operations"),
-    emoji("🧠 Translate business questions into data-driven insights")
+    emoji("⚡ Proficient in data analysis using Power BI, SQL, and Excel"),
+    emoji("⚡ Experienced in creating project dashboards, tracking KPIs, and financial metrics"),
+    emoji("⚡ Skilled in project compliance, stakeholder communication, and administrative governance")
   ],
   softwareSkills: [
-    {
-      skillName: "Power BI",
-      fontAwesomeClassname: "fas fa-chart-bar"
-    },
-    {
-      skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "Excel",
-      fontAwesomeClassname: "fas fa-file-excel"
-    },
-    {
-      skillName: "Scrum",
-      fontAwesomeClassname: "fas fa-users"
-    },
-    {
-      skillName: "Project Management",
-      fontAwesomeClassname: "fas fa-tasks"
-    }
+    { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-bar" },
+    { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "Excel", fontAwesomeClassname: "fas fa-file-excel" },
+    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "Scrum", fontAwesomeClassname: "fas fa-project-diagram" },
+    { skillName: "Project Management", fontAwesomeClassname: "fas fa-tasks" }
   ],
   display: true
 };
 
 const educationInfo = {
-  display: false,
-  schools: []
+  display: true,
+  schools: [
+    {
+      schoolName: "University of Tartu",
+      logo: require("./assets/images/harvardLogo.png"),
+      subHeader: "Master of Arts - Innovation and Technology Management",
+      duration: "09/2019 – 06/2021",
+      desc: "Focused on technology strategy, digital transformation, and innovation processes"
+    },
+    {
+      schoolName: "University of Nis",
+      logo: require("./assets/images/stanfordLogo.png"),
+      subHeader: "Bachelor's Degree - Finance, Banking and Insurance",
+      duration: "10/2008 – 06/2013",
+      desc: "Gained solid foundation in financial systems and economic structures"
+    }
+  ]
 };
 
 const techStack = {
   viewSkillBars: true,
   experience: [
-    {
-      Stack: "Project Management & Scrum",
-      progressPercentage: "90%"
-    },
-    {
-      Stack: "SQL",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Reporting/BI",
-      progressPercentage: "80%"
-    }
+    { Stack: "Power BI / Excel / D365", progressPercentage: "90%" },
+    { Stack: "SQL / Python", progressPercentage: "75%" },
+    { Stack: "Project Management", progressPercentage: "85%" }
   ],
   displayCodersrank: false
 };
 
 const workExperiences = {
-  display: false,
-  experience: []
-};
-
-const openSource = {
-  showGithubProfile: "false",
-  display: false
+  display: true,
+  experience: [
+    {
+      role: "Project Management Officer",
+      company: "Merkle",
+      companylogo: require("./assets/images/facebookLogo.png"),
+      date: "05/2022 – Present",
+      descBullets: [
+        "Provide tools/reports to support project managers and ensure compliance",
+        "Monitor KPIs, analyze financials, train on PM standards",
+        "Support change/resource management and stakeholder communication"
+      ]
+    },
+    {
+      role: "IT Manager",
+      company: "Green Trust",
+      companylogo: require("./assets/images/quoraLogo.png"),
+      date: "04/2021 – 05/2022",
+      descBullets: [
+        "Redefined project document structures, managed IT systems",
+        "Automated internal processes, wrote specs for equipment",
+        "Managed cloud/cybersecurity projects"
+      ]
+    },
+    {
+      role: "Carrier Sales Representative",
+      company: "Delta Group Logistics LLC",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "11/2021 – 03/2022",
+      descBullets: [
+        "Maintained carrier network and negotiated competitive rates",
+        "Ensured optimal shipment coverage and service quality"
+      ]
+    },
+    {
+      role: "Project Officer",
+      company: "Ministry of Labor, Employment, Veteran and Social Affairs",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "09/2021 – 02/2022",
+      descBullets: [
+        "Supported program activities, stakeholders and reporting",
+        "Organized events, managed documentation and correspondence"
+      ]
+    },
+    {
+      role: "Business Consultant",
+      company: "Gabriel Education Ltd.",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "02/2018 – 07/2019",
+      descBullets: [
+        "Implemented curriculum changes, reported effectiveness",
+        "Introduced new technologies and consulted on education policies"
+      ]
+    },
+    {
+      role: "Educational Recruiter",
+      company: "Career Oversea Ltd.",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "02/2017 – 02/2018",
+      descBullets: [
+        "Provided academic counseling and developed outreach strategies",
+        "Built partnerships between universities and schools"
+      ]
+    }
+  ]
 };
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "EXAMPLES OF IMPACTFUL WORK",
+  title: "Projects",
+  subtitle: "Some of the work I am proud of",
   projects: [],
   display: false
 };
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Relevant certificates and professional growth milestones",
-  achievementsCards: [],
-  display: false
+  subtitle: "Professional credentials and recognitions",
+  achievementsCards: [
+    {
+      title: "Prince2 Foundation Professional",
+      subtitle: "Certified by AXELOS in project methodology and governance",
+      image: require("./assets/images/pwaLogo.webp"),
+      imageAlt: "Prince2 Logo",
+      footerLink: []
+    },
+    {
+      title: "Scrum Master I (PSM I)",
+      subtitle: "Certified Scrum Master with understanding of Agile principles",
+      image: require("./assets/images/pwaLogo.webp"),
+      imageAlt: "Scrum Master Logo",
+      footerLink: []
+    },
+    {
+      title: "Microsoft Power BI Data Analyst",
+      subtitle: "Certified in Data Analysis and Visualization using Power BI",
+      image: require("./assets/images/pwaLogo.webp"),
+      imageAlt: "Power BI Logo",
+      footerLink: []
+    }
+  ],
+  display: true
 };
 
-const blogSection = {
-  title: "Blogs",
-  subtitle: "I love sharing knowledge through writing.",
-  displayMediumBlogs: "false",
-  blogs: [],
-  display: false
-};
-
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji("Eager to share and exchange ideas"),
-  talks: [],
-  display: false
-};
-
-const podcastSection = {
-  title: emoji("Podcast 🎹"),
-  subtitle: "Always open for meaningful discussions.",
-  podcast: [],
-  display: false
-};
-
+const blogSection = { title: "", subtitle: "", blogs: [], display: false };
+const talkSection = { title: "", subtitle: "", talks: [], display: false };
+const podcastSection = { title: "", subtitle: "", podcast: [], display: false };
 const resumeSection = {
   title: "Resume",
-  subtitle: "Download my resume",
-  display: false
+  subtitle: "Feel free to download my resume",
+  display: true,
+  link: "https://drive.google.com/file/d/1OdUaYb_wR8iSt0QjdWUaenNCR2VHY1GK/view?usp=sharing"
 };
-
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Let’s connect — open to collaborations, projects or coffee chats!",
-  number: "+381642924156",
+  subtitle: "Discuss a project or just want to say hi? My inbox is open.",
+  number: "",
   email_address: "thegolub1989@gmail.com"
 };
-
-const twitterDetails = {
-  userName: "",
-  display: false
-};
-
+const twitterDetails = { userName: "", display: false };
 const isHireable = true;
 
 export {
@@ -162,7 +209,7 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-  openSource,
+  openSource: { showGithubProfile: false, display: false },
   bigProjects,
   achievementSection,
   blogSection,
