@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/danijel/static/css/main.ab8522ac.css",
-    "main.js": "/danijel/static/js/main.70d8acea.js",
+    "main.css": "/danijel/static/css/main.2a1b84ec.css",
+    "main.js": "/danijel/static/js/main.493bbac4.js",
     "static/css/64.bba8fa55.chunk.css": "/danijel/static/css/64.bba8fa55.chunk.css",
     "static/js/64.042771d8.chunk.js": "/danijel/static/js/64.042771d8.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/danijel/static/css/769.b3cbb36b.chunk.css",
@@ -13,7 +13,6 @@
     "static/media/Agustina.woff": "/danijel/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/scrum.png": "/danijel/static/media/scrum.caaddb15e54b8bd5411e.png",
     "static/media/lines.jpg": "/danijel/static/media/lines.e2fb314831d9910fbcf9.jpg",
-    "static/media/manOnTable.svg": "/danijel/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/sql.png": "/danijel/static/media/sql.39ad0d405865a15c9ae5.png",
     "static/media/contactMailDark.svg": "/danijel/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/danijel/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
@@ -22,15 +21,15 @@
     "static/media/skill.svg": "/danijel/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/danijel/index.html",
     "static/media/talksCardBack.svg": "/danijel/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.ab8522ac.css.map": "/danijel/static/css/main.ab8522ac.css.map",
-    "main.70d8acea.js.map": "/danijel/static/js/main.70d8acea.js.map",
+    "main.2a1b84ec.css.map": "/danijel/static/css/main.2a1b84ec.css.map",
+    "main.493bbac4.js.map": "/danijel/static/js/main.493bbac4.js.map",
     "64.bba8fa55.chunk.css.map": "/danijel/static/css/64.bba8fa55.chunk.css.map",
     "64.042771d8.chunk.js.map": "/danijel/static/js/64.042771d8.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/danijel/static/css/769.b3cbb36b.chunk.css.map",
     "769.4edd1d78.chunk.js.map": "/danijel/static/js/769.4edd1d78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab8522ac.css",
-    "static/js/main.70d8acea.js"
+    "static/css/main.2a1b84ec.css",
+    "static/js/main.493bbac4.js"
   ]
 }
