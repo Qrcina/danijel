@@ -1,17 +1,23 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import "./Achievement.scss";
 import AchievementCard from "../../components/achievementCard/AchievementCard";
-import {achievementSection} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { achievementSection } from "../../portfolio";
+import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
-console.log("Achievements loaded:", achievementSection.achievementsCards);
-
 export default function Achievement() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
+
+  // Log SQL image path to check if import works correctly
+  const sqlCard = achievementSection.achievementsCards.find((card) =>
+    card.title.includes("SQL")
+  );
+  console.log("SQL Image Path:", sqlCard ? sqlCard.image : "SQL card not found");
+
   if (!achievementSection.display) {
     return null;
   }
+
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="achievements">
@@ -47,7 +53,7 @@ export default function Achievement() {
                     description: card.subtitle,
                     image: card.image,
                     imageAlt: card.imageAlt,
-                    footer: card.footerLink
+                    footer: card.footerLink,
                   }}
                 />
               );

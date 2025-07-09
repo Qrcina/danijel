@@ -21,10 +21,6 @@
   color: $subTitle !important;
 }
 
-.greeting-main {
-  display: flex;
-}
-
 .greeting-main > * {
   flex: 1;
   margin-bottom: 30px;
@@ -56,6 +52,19 @@
 .greeting-image-div > img {
   max-width: 100%;
   height: auto;
+}
+
+/* Profile picture styling */
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;        /* circle shape */
+  object-fit: cover;         /* cover the container */
+  border: 3px solid #00aaff; /* direct hex color */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .wave-emoji {
@@ -99,6 +108,7 @@
     font-size: 20px;
   }
 }
+
 @media (max-width: 768px) {
   .button-greeting-div {
     justify-content: space-around;
@@ -118,10 +128,20 @@
   .greeting-image-div {
     height: 256px;
   }
+  /* Profile picture responsive size */
+  .profile-picture {
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 320px) {
   .main {
     width: auto;
+  }
+  .profile-picture {
+    width: 100px;
+    height: 100px;
   }
 }

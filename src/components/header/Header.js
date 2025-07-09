@@ -14,9 +14,6 @@ import {
   resumeSection
 } from "../../portfolio";
 
-// ✅ Import the logo directly
-import logo from "../../assets/images/Tartu_Logo.png";
-
 function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
@@ -30,22 +27,20 @@ function Header() {
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
-        <a
-          href="/"
+        <div
           className="logo"
-          style={{display: "flex", alignItems: "center", gap: "8px"}}
+          style={{ display: "flex", alignItems: "center", gap: "8px", cursor: "default" }}
         >
-          <img src={logo} alt="Tartu Logo" style={{height: 30}} />
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
-        </a>
+        </div>
 
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
           className="menu-icon"
           htmlFor="menu-btn"
-          style={{color: "white"}}
+          style={{ color: "white" }}
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
