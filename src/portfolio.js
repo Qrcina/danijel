@@ -25,7 +25,7 @@ const greeting = {
 };
 
 const socialMediaLinks = {
-  // github: "https://github.com/Qrcina",
+  // github: "https://github.com/danijel89-spec",
   linkedin: "https://www.linkedin.com/in/danijel-golubovic-317883113/",
   display: true
 };
@@ -183,6 +183,13 @@ const achievementSection = {
       subtitle: "Certified in Data Analysis and Visualization using Power BI",
       image: require("./assets/images/PowerBI.png"),
       imageAlt: "Power BI Logo",
+      footerLink: []
+    },
+    {
+      title: "Analyze Data with SQL",
+      subtitle: "Certified in Analyzing Data with SQL",
+      image: require("./assets/images/sql.png"),
+      imageAlt: "SQL Logo",
       footerLink: []
     }
   ],
