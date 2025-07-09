@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/danijel/static/css/main.2a1b84ec.css",
+    "main.js": "/danijel/static/js/main.c64932c8.js",
+    "static/css/64.bba8fa55.chunk.css": "/danijel/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.042771d8.chunk.js": "/danijel/static/js/64.042771d8.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/danijel/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.4edd1d78.chunk.js": "/danijel/static/js/769.4edd1d78.chunk.js",
+    "static/media/PowerBI.png": "/danijel/static/media/PowerBI.810aa8519901739b1544.png",
+    "static/media/Montserrat-Regular.ttf": "/danijel/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Tartu_Logo.png": "/danijel/static/media/Tartu_Logo.fd4f812729e8a09f090d.png",
+    "static/media/eko_nis.png": "/danijel/static/media/eko_nis.e5e82686b5a7bebb8902.png",
+    "static/media/Agustina.woff": "/danijel/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/scrum.png": "/danijel/static/media/scrum.caaddb15e54b8bd5411e.png",
+    "static/media/random.png": "/danijel/static/media/random.5df66122299708858682.png",
+    "static/media/sql.png": "/danijel/static/media/sql.39ad0d405865a15c9ae5.png",
+    "static/media/contactMailDark.svg": "/danijel/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/danijel/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/merkle.jpg": "/danijel/static/media/merkle.786b63d8edc2bc31c3a0.jpg",
+    "static/media/green_trust.jpg": "/danijel/static/media/green_trust.e0ed938444e4393c91a4.jpg",
+    "static/media/skill.svg": "/danijel/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/danijel/index.html",
+    "static/media/talksCardBack.svg": "/danijel/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.2a1b84ec.css.map": "/danijel/static/css/main.2a1b84ec.css.map",
+    "main.c64932c8.js.map": "/danijel/static/js/main.c64932c8.js.map",
+    "64.bba8fa55.chunk.css.map": "/danijel/static/css/64.bba8fa55.chunk.css.map",
+    "64.042771d8.chunk.js.map": "/danijel/static/js/64.042771d8.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/danijel/static/css/769.b3cbb36b.chunk.css.map",
+    "769.4edd1d78.chunk.js.map": "/danijel/static/js/769.4edd1d78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a1b84ec.css",
+    "static/js/main.c64932c8.js"
+  ]
+}
